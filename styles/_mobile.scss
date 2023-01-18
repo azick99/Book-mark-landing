@@ -114,7 +114,7 @@
 
     .picture1 {
         min-width: 100vh;
-        top: 45%;
+        top: 50%;
         right: 0;
 
         .vector {
@@ -189,7 +189,7 @@
     //vector-2 
     .vector-2 {
         left: -20%;
-        top: 272%;
+        top: 200%;
     }
 
     //Extension
@@ -284,4 +284,44 @@
             flex-direction: row;
         }
     }
+}
+@media only screen and (max-width: 400px){
+    //vector-2 
+    .vector-2 {
+        left: -20%;
+        top: 200%;
+    }
+     .picture1 {
+        min-width: 100vh;
+
+        .vector {
+            top: 30%;
+            right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    //vector-2 
+    .vector-2 {
+        top: 160%;
+    }
+    .vector {
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 361px){
+    //vector-2 
+    .vector-2 {
+        top: 180%;
+    }
+
+}
+@media only screen and (max-width: 376px){
+    //vector-2 
+    .vector-2 {
+        top: 200%;
+    }
+
 }

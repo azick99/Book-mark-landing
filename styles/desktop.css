@@ -494,7 +494,7 @@ a {
   }
   .picture1 {
     min-width: 100vh;
-    top: 45%;
+    top: 50%;
     right: 0;
   }
   .picture1 .vector {
@@ -549,7 +549,7 @@ a {
   }
   .vector-2 {
     left: -20%;
-    top: 272%;
+    top: 200%;
   }
   .extension {
     padding: 0 15px;
@@ -615,5 +615,36 @@ a {
   }
   .footer-navigation .f-icon-bar {
     flex-direction: row;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .vector-2 {
+    left: -20%;
+    top: 200%;
+  }
+  .picture1 {
+    min-width: 100vh;
+  }
+  .picture1 .vector {
+    top: 30%;
+    right: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .vector-2 {
+    top: 160%;
+  }
+  .vector {
+    top: 25%;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .vector-2 {
+    top: 180%;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .vector-2 {
+    top: 200%;
   }
 }/*# sourceMappingURL=desktop.css.map */
